@@ -1,2 +1,2 @@
-# dotneteverywhere
-The Repository Contains the Recipes that you can do with Dotnet
+# Console Gui with .Net
+It is based on the library https://github.com/migueldeicaza/gui.cs
