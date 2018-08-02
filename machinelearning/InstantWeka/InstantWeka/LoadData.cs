@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NTTU.BigODM.MachineLearning.Weka;
 using weka.core;
 using static weka.core.converters.ConverterUtils;
+using static System.Console;
 
 namespace InstantWeka
 {
@@ -13,10 +14,11 @@ namespace InstantWeka
     {
         public static void Run()
         {
+            WriteLine("Loading the data");
             var source = new DataSource(@"dataset\titanic.arff");
             var data = source.getDataSet();
-            Console.WriteLine(data.numInstances() + " instances loaded.");
-            Console.WriteLine(data.toString());
+            WriteLine(data.numInstances() + " instances loaded.");
+            WriteLine(data.toString());
         }
     }
 }
