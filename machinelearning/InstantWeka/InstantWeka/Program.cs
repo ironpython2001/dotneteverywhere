@@ -13,7 +13,8 @@ namespace InstantWeka
         //https://github.com/limcheekin/instant-weka-howto
         static void Main(string[] args)
         {
-            LoadData.Run();
+            //LoadData.Run();
+            CreateDataSet.Run();
             ReadLine();
         }
     }
