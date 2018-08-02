@@ -134,12 +134,16 @@
   <ItemGroup>
     <Compile Include="002.CreateDataSet.cs" />
     <Compile Include="001.LoadData.cs" />
+    <Compile Include="003.ConvertCSVtoARFF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="dataset\titanic.arff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="dataset\titanic.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />

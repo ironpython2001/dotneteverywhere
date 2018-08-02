@@ -16,7 +16,7 @@ namespace InstantWeka
             catVals.addElement("sports");
             catVals.addElement("finance");
             catVals.addElement("news");
-            attributes.addElement(new weka.core.Attribute("category (att1)", catVals));
+            attributes.addElement(new weka.core.Attribute("category (att1)", catVals));            var s = new weka.core.converters.CSVLoader();
         }
     }
 }
