@@ -15,7 +15,8 @@ namespace InstantWeka
         {
             //LoadData.Run();
             //CreateDataSet.Run();
-            ConvertCSVtoARFF.Run();
+            //ConvertCSVtoARFF.Run();
+            FilteringAttributes.Run();
             ReadLine();
         }
     }

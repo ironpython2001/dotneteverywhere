@@ -11,12 +11,12 @@ namespace InstantWeka
     {
         public static void Run()
         {
-            var attributes = new weka.core.FastVector();
-            var catVals = new weka.core.FastVector(3);
-            catVals.addElement("sports");
-            catVals.addElement("finance");
-            catVals.addElement("news");
-            attributes.addElement(new weka.core.Attribute("category (att1)", catVals));            var s = new weka.core.converters.CSVLoader();
+            //var attributes = new weka.core.FastVector();
+            //var catVals = new weka.core.FastVector(3);
+            //catVals.addElement("sports");
+            //catVals.addElement("finance");
+            //catVals.addElement("news");
+            //attributes.addElement(new weka.core.Attribute("category (att1)", catVals));            //var s = new weka.core.converters.CSVLoader();
         }
     }
 }
